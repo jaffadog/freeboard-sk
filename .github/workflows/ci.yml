@@ -8,7 +8,8 @@ on:
 
 jobs:
   test:
-    uses: SignalK/signalk-server/.github/workflows/plugin-ci.yml@master
+    # uses: SignalK/signalk-server/.github/workflows/plugin-ci.yml@master
+    uses: jaffadog/signalk-server/.github/workflows/plugin-ci.yml@feat/separate-build-node-version
     with:
       build-command: 'npm run build:all'
       test-command: 'npm run test:ci'
