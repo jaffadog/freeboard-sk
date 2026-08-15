@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     # uses: SignalK/signalk-server/.github/workflows/plugin-ci.yml@master
-    # dummy change 2
+    # dummy change 2 3
     uses: jaffadog/signalk-server/.github/workflows/plugin-ci.yml@feat/separate-build-node-version
     with:
       build-command: 'npm run build:all'
