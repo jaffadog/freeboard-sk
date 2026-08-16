@@ -15,3 +15,4 @@ jobs:
       build-command: 'npm run build:all'
       test-command: 'npm run test:ci'
       format-check-command: 'npm run format:check'
+# retest trigger: plugin-ci.yml schema-defaults activation + fail-on-warning verification
